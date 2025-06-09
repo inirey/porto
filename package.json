@@ -1,0 +1,10 @@
+{
+  "name": "porto",
+  "version": "12.02.03",
+  "description": "Project HTML",
+  "scripts": {
+    "test": "echo 'No test needed!' && exit 0"
+  },
+  "author": "bedimcode",
+  "license": "MIT"
+}
