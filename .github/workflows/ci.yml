@@ -1,0 +1,13 @@
+# .github/workflows/ci.yml
+name: Green Check Test
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+      - name: Dummy test
+        run: echo "Semua baik-baik saja!" && exit 0
